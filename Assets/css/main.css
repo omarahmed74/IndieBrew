@@ -1,0 +1,158 @@
+body {
+    background-image: linear-gradient(to bottom, #edd0ef, #ffd9e0, #ffe7de, #faf5ea, #fefffd);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.btn1 {
+    background-color: #6D56FC;
+    color: white;
+    transition: all .4s;
+}
+.btn1:hover {
+    border: 1px solid #6D56FC;
+    background-color: white;
+    color: black;
+}
+.btn1 span {
+    color: hsl(234, 12%, 69%);
+}
+
+.navbar-brand img {
+    margin-left: 60px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.home .home-text {
+    padding-top: 50px;
+}
+
+.home-text h1 {
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.home-text .pp {
+    padding: 7px 0px;
+}
+
+.home .edit-11 {
+    padding: 15px 10px;
+}
+
+.home .pp span {
+    color: #6D56FC;
+    font-weight: 600;
+}
+
+.about {
+    padding-top: 150px;
+}
+
+.about .about-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.about .img-2 {  
+    padding-left: 120px;
+}
+
+.next {
+    padding-top: 100px;
+}
+
+.next .nextHeader h1 {
+    font-weight: 700;
+}
+
+.next .img-3 {
+    width: 70%;
+}
+
+footer {
+    background-color: #FBF8F3;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+
+footer .colors {
+    color: black;
+    font-weight: 700;
+}
+
+footer .colores {
+    color: hsl(233, 8%, 62%) !important;
+}
+
+footer .omar {
+   color: black;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+
+
+
+@media (max-width:750px){
+    .home-text h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .home-text .ppp {
+        font-size: 15px;
+    }
+
+    .navbar-brand img {
+        margin-left: 0px;
+    }
+
+    .about {
+        padding-top: 50px;
+    }
+
+    .about .about-text {
+        padding-top: 30px;
+    }
+    
+    .about .about-text h1 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    
+    .about .img-2 {
+        padding-left: 0px;
+    }
+
+    .next {
+        padding-top: 50px;
+    }
+    
+    .next .nextHeader h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .next .nextHeader {
+        padding-top: 30px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .next .img-3 {
+       width: 100%;
+    }
+
+
+}
